@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>一猜你就到不了2048</title>
+
+  <link href="https://www.2048.org/style/main.css?v=5" rel="stylesheet" type="text/css">
+  <style type="text/css">
+.score-container:after {
+  content: "看看你这点破分";
+}
+
+.best-container:after {
+  content: "你也就到这了";
+}
+  </style>
+  <link rel="shortcut icon" href="https://www.2048.org/favicon.ico">
+  <link rel="apple-touch-icon" href="meta/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+</head>
+<body>
+  <div class="container">
+    <div class="heading">
+      <h1 class="title">你绝对到不了2048</h1>
+      <div class="scores-container">
+        <div class="score-container">0</div>
+        <div class="best-container">0</div>
+      </div>
+    </div>
+
+    <div class="above-game">
+      <p class="game-intro">使劲划拉划拉 <strong>但你就是到不了2048</strong>!</p>
+      <a class="restart-button">人生重来</a>
+    </div>
+
+    <div class="game-container">
+      <div class="game-message">
+        <p></p>
+        <div class="lower">
+	        <a class="keep-playing-button">Keep going</a>
+          <a class="retry-button">菜鸡，想再来一次吗</a>
+        </div>
+      </div>
+
+      <div class="grid-container">
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+      </div>
+
+      <div class="tile-container">
+
+      </div>
+    </div>
+
+    <p class="game-explanation">
+      <strong class="important"><a href="tip.html" style="text-decoration:underline;color:blue">知道怎么玩吗？！</a></strong> 老子 <strong>就是</strong> 不告诉你！ <strong>想都别想！</strong>
+    </p>
+  </div>
+  <p align="center"><strong>换语言？中文是最nb的！</strong></p>
+  <br>
+
+  <script src="https://www.2048.org/minimize-js.cgi"></script>
+  <!--<p style='text-align:center'>&copy;2021 - 2048.org - <a style='font-weight:normal' href='https://de.2048.org/'>DE</a> | <strong>EN</strong> | <a style='font-weight:normal' href='https://es.2048.org/'>ES</a> | <a style='font-weight:normal' href='https://fr.2048.org/'>FR</a> | <a style='font-weight:normal' href='https://it.2048.org/'>IT</a> | <a style='font-weight:normal' href='https://ro.2048.org/'>RO</a> | <a style='font-weight:normal' href='https://tr.2048.org/'>TR</a></p> !-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-63909408-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</body>
+</html>
